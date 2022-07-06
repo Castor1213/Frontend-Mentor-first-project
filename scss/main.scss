@@ -23,8 +23,8 @@ body {
 
 .card {
 	margin: 10px;
-	width: 40%;
-	height: 700px;
+	width: 90%;
+	height: 90%;
 	text-align: center;
 	border-radius: 15px;
 	background-color: #fff;
@@ -33,7 +33,6 @@ body {
 	&__img {
 		width: 100%;
 	}
-
 	&__body {
 		margin: 10px;
 		padding: 10px 20px;
