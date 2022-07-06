@@ -35,9 +35,66 @@ body {
 	}
 
 	&__body {
-		margin: 10px  ;
+		margin: 10px;
 		padding: 10px 20px;
 		text-align: left;
 	}
+	&__perfume {
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		color: hsl(228, 12%, 48%);
+		letter-spacing: 5px;
+	}
 
+	&__name {
+		font-size: 4rem;
+		font-family: 'Fraunces', serif;
+		padding: 10px 0;
+	}
+
+	&__text {
+		font-size: 1.8rem;
+		color: hsl(228, 12%, 48%);
+	}
+
+	&__prices {
+		display: flex;
+		padding: 5px 15px;
+		margin-bottom: 20px;
+		height: 30px;
+
+		&--regular {
+			font-size: 4rem;
+			color: hsl(158, 36%, 37%);
+			font-family: 'Fraunces', serif;
+		}
+
+		&--discount {
+			position: relative;
+			top: 13px;
+			text-decoration: line-through;
+			color: hsl(228, 12%, 48%);
+		}
+	}
+}
+
+button {
+	position: relative;
+	top: 20px;
+	width: 80%;
+	height: 20%;
+	padding: 10px;
+	border-radius: 8px;
+	border: none;
+	background-color: hsl(158, 36%, 37%);
+	color: #fff;
+	font-weight: 700;
+	font-size: 2rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: hsl(158, 32%, 25%);
+	}
 }
